@@ -1,0 +1,152 @@
+* {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: red 3px solid; */
+}
+
+.form_box {
+    display: flex;
+    width: 20em;
+    height: 40em;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(56, 55, 55);
+    margin: 4em 0em 0em 0em;
+}
+
+.header, header_div {
+    display: flex;
+    color: rgb(211, 126, 41);
+    background-color: rgb(56, 55, 55);
+    margin: 1em 0em 2em 0em;
+    font-size: x-large;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.form {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.form_area {
+    display: flex;
+    color: white;
+    background-color: rgb(56, 55, 55);
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    background-color: rgb(56, 55, 55);
+}
+
+input, select {
+    display: flex;
+    width: 15em;
+    margin: 0em 0em 2em 0em;
+    color: white;
+    background-color: rgb(56, 55, 55);
+}
+
+label {
+    display: flex;
+    margin: 0em 0em .5em 0em;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    font-size: large;
+    font-weight: bold;
+}
+
+.comments_box {
+    display: flex;
+    height: 10em;
+    width: 15em;
+    text-align: start;
+    text-wrap:pretty;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    margin: 0em 0em 2em 0em; 
+}
+
+.submit {
+    display: flex;
+    background-color: yellow;
+    color: black;
+    height: 3em;
+    width: 15em;
+    font-weight: bold;
+}
+
+
+title {
+    display: none;
+}
+
+/* CSS for results.html */
+
+.results_container {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40em;
+    width: 60em;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    flex-direction: column;
+}
+
+.box1, .box2, .box2 div{
+    display:flex;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 15em;
+}
+
+.box1 {
+    margin: 3em 0em 0em 1.5em;
+}
+
+.box1 div {
+    font-size: xx-large;
+}
+
+.box2 {
+    width: 45em;  
+    margin: -3em 0em 0em 12em;
+}
+
+.box2 div {
+    display: flex;
+    margin: 1em 0em 0em 0em;
+    font-size: x-large;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.column1, .column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 {
+    margin: 0em 0em 0em 3em;
+}
+
+.heading {
+    background-color: rgb(56, 55, 55);
+    color: white;
+    justify-content: center;
+}
